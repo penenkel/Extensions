@@ -30,6 +30,7 @@
     <ProjectReferenceProvider Include="Microsoft.Extensions.Diagnostics.HealthChecks" ProjectPath="$(RepoRoot)src\HealthChecks\HealthChecks\src\Microsoft.Extensions.Diagnostics.HealthChecks.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Hosting.Abstractions" ProjectPath="$(RepoRoot)src\Hosting\Abstractions\src\Microsoft.Extensions.Hosting.Abstractions.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Hosting" ProjectPath="$(RepoRoot)src\Hosting\Hosting\src\Microsoft.Extensions.Hosting.csproj" />
+    <ProjectReferenceProvider Include="Microsoft.Extensions.Hosting.WindowsService" ProjectPath="$(RepoRoot)src\Hosting\WindowsService\src\Microsoft.Extensions.Hosting.WindowsService.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Http" ProjectPath="$(RepoRoot)src\HttpClientFactory\Http\src\Microsoft.Extensions.Http.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Http.Polly" ProjectPath="$(RepoRoot)src\HttpClientFactory\Polly\src\Microsoft.Extensions.Http.Polly.csproj" />
     <ProjectReferenceProvider Include="Microsoft.JSInterop" ProjectPath="$(RepoRoot)src\JSInterop\Microsoft.JSInterop\src\Microsoft.JSInterop.csproj" />
