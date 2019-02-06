@@ -14,6 +14,7 @@
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.Ini" ProjectPath="$(RepoRoot)src\Configuration\Config.Ini\src\Microsoft.Extensions.Configuration.Ini.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.Json" ProjectPath="$(RepoRoot)src\Configuration\Config.Json\src\Microsoft.Extensions.Configuration.Json.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.KeyPerFile" ProjectPath="$(RepoRoot)src\Configuration\Config.KeyPerFile\src\Microsoft.Extensions.Configuration.KeyPerFile.csproj" />
+    <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.NewtonsoftJson" ProjectPath="$(RepoRoot)src\Configuration\Config.NewtonsoftJson\src\Microsoft.Extensions.Configuration.NewtonsoftJson.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.UserSecrets" ProjectPath="$(RepoRoot)src\Configuration\Config.UserSecrets\src\Microsoft.Extensions.Configuration.UserSecrets.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration.Xml" ProjectPath="$(RepoRoot)src\Configuration\Config.Xml\src\Microsoft.Extensions.Configuration.Xml.csproj" />
     <ProjectReferenceProvider Include="Microsoft.Extensions.Configuration" ProjectPath="$(RepoRoot)src\Configuration\Config\src\Microsoft.Extensions.Configuration.csproj" />
