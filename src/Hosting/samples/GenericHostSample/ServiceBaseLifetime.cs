@@ -1,4 +1,4 @@
-﻿#if NET461
+#if NET461
 using System;
 using System.ServiceProcess;
 using System.Threading;
@@ -25,12 +25,12 @@ namespace GenericHostSample
     {
         private TaskCompletionSource<object> _delayStart = new TaskCompletionSource<object>();
 
-        public ServiceBaseLifetime(IApplicationLifetime applicationLifetime)
+        public ServiceBaseLifetime(IAppLifetime applicationLifetime)
         {
             ApplicationLifetime = applicationLifetime ?? throw new ArgumentNullException(nameof(applicationLifetime));
         }
 
-        private IApplicationLifetime ApplicationLifetime { get; }
+        private IAppLifetime ApplicationLifetime { get; }
 
         public Task WaitForStartAsync(CancellationToken cancellationToken)
         {
